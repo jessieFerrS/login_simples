@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Login</title>
+</head>
+<body>
+    <div class="title">
+        <h1>Login</h1>
+    </div>
+
+    <div class="container"> 
+        <div class="main-login">
+            <div class="input_box">
+                <p>Usuário</p>
+                <input id="input" type="text" placeholder="Nome de usuário ou E-mail">
+            </div>
+
+            <div class="input_box">
+                <p>Senha</p>
+                <input type="password" id="password" placeholder="********">
+                <span class="eye" id="toggleIcon" style="cursor: pointer;">
+                    <img src="./img/hide.png" width="25px">
+                </span>
+            </div>
+
+            <div class="checkbox_user">
+                <input type="checkbox" name="lembrar_usuario" id="lembrar_usuario">
+                <label for="lembrar_usuario">Lembrar usuário</label>
+            </div>
+
+            <div class="button_login">
+                <button id="submit-login">Login</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
